@@ -31,6 +31,5 @@ public class MainActivity extends AppCompatActivity {
 
     private void populateImage(int image) {
         ImageView img = (ImageView) findViewById(R.id.image1);
-        img.setImageResource(image);
-    }
+        img.setImageResource(image);}
 }
